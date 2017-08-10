@@ -1,0 +1,990 @@
+body, html {
+  overflow-x: hidden;
+}
+
+
+
+.navbar-fixed-top {
+
+  background-color: white;
+  /*background-color: yellow;*/
+
+
+}
+
+// Class
+.i-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage as a mixin
+.element {
+  .center-block();
+}
+
+.navbar-logo {
+  height: 80px;
+}
+
+.dark-logo {
+  height:120px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.btn{
+
+  background: #FD5622;
+  color: white;
+  border: 0;
+  outline: 0 none;
+  border: 0;
+
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-default {
+    background: #FD5622;
+    color: white;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #FD5622;
+    color: white;
+    outline: 0 none;
+
+}
+.btn-primary {
+    background: #FD5622;
+    color: white;
+    outline: 0 none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #FD5622;
+    color: white;
+    outline: 0 none;
+
+}
+
+.btn-default:active, .btn-default.active {
+    background: #FD5622;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+/* Get rid of Mozilla outline when clicking on a link - start*/
+a:hover, a:active, a:focus, a:link, a:visited {
+  outline: 0;
+  outline: 0 !important;
+  outline-style:none;
+}
+button, object, embed {
+  outline: 0;
+}
+
+/* All Input elements */
+input::-moz-focus-inner {
+ outline: 0;
+}
+
+/* Or more specifically*/
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner{
+  outline: 0;
+}
+/* Get rid of Mozilla outline when clicking on a link - end*/
+
+
+
+
+.list {
+
+    list-style:none;
+    margin:25px;
+    padding:0px;
+    text-align:left;
+
+}
+.list  li{
+    display:inline;
+    font-size: 20px;
+    padding: 25px;
+    position: relative;
+    top: 80px;
+    left: 90px;
+
+}
+.list  a{
+    display:inline-block;
+    padding:10px;
+}
+
+
+
+
+
+a {
+   outline: 0 none;
+}
+
+
+.carousel, .item, .active {
+
+height:100%;
+
+}
+.carousel-inner {
+
+height:100%;
+
+}
+.carousel {
+
+height: 600px;
+margin-bottom: 30px;
+
+}
+.carousel-caption {
+
+z-index: 10;
+
+}
+.carousel .item {
+
+background-color: #777;
+
+}
+.carousel .carousel-inner .bg {
+
+background-repeat:no-repeat;
+background-size:cover;
+
+
+}
+.carousel .carousel-inner .bg1 {
+
+background-image:url('../img/exterior.jpg');
+background-position: 50% 35%;
+
+
+}
+.carousel .carousel-inner .bg2 {
+
+background-image:url("../img/interior.jpg");
+background-position: 50% 65%;
+
+}
+.carousel .carousel-inner .bg3 {
+
+background-image:url("../img/pressureWashing.jpg");
+background-position: center center;
+
+
+}
+.carousel .carousel-inner .bg4 {
+
+background-image:url("../img/epoxy.jpg");
+background-position: center bottom;
+
+}
+.carousel .carousel-inner .bg5 {
+
+background-image:url("../img/cabinets.jpg");
+background-position: 75% 50%
+
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+
+
+
+.form {
+    background-color: #ACAAAF;
+
+
+
+}
+
+.br {
+
+   background-color: #FD5622; /* bright red */
+
+}
+
+
+#contact-page  {
+
+   padding-top: 80px;
+}
+
+
+
+#gallery-page {
+
+   padding-top: 150px;
+
+}
+
+
+.lead {
+  text-align:center;
+  font-size: 16px;
+  color:grey;
+
+}
+
+.paragraph-text {
+
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left;
+
+
+
+
+}
+.img-thumbnail {
+
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.img-thumbnail-gallery {
+
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.header {
+  /*font-family: 'Raleway', sans-serif;*/
+  text-align: center;
+  /*font-size: 20px;*/
+
+}
+
+.header2 {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+
+}
+.header3 {
+
+  font-family: 'Raleway', sans-serif;
+  /*font-size: 30px;*/
+  text-align: left;
+
+
+}
+
+.header4 {
+
+  font-family: 'Raleway', sans-serif;
+  /*text-align: center;*/
+  font-size: 16px;
+
+}
+
+
+.header-for-footer {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+
+
+}
+.header-for-license {
+
+  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.header-for-license > p {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+
+}
+
+
+
+#links {
+
+   margin-bottom: 250px;
+
+}
+
+.hvr-icon-forward:before {
+    content: "\f138";
+    position: absolute;
+    right: 1em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    transform: translateZ(0);
+    transition-duration: 0.1s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.headings {
+
+   margin-top: 50px;
+   margin-bottom: 100px;
+
+
+}
+
+.contact-form {
+    background-color: #aba9ad;  /* grey */
+    background-color: #4c4c4e; /*dark grey*/
+    background-color: #292c2f; /*dark grey 8/6/17 */
+    background-color: grey;
+    box-shadow: inset 0px 0px 140px 20px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+
+}
+
+.center-contact-form-items {
+  margin: 0 auto;
+  float: none;
+}
+
+.dark-grey {
+  color: #292c2f;
+}
+
+.bar {
+    /*dark grey (old)*/
+    /*background-color: #4c4c4e;*/
+    /*dark grey 8/6/17 */
+    background-color: #292c2f;
+    padding-top: 60px;
+    height: 250px;
+
+}
+
+#slideDownBar {
+  /*position: relative;
+  top: 50px;
+  background-color: #292c2f; /*dark grey 8/6/17 */*/
+}
+
+#mainContainer {
+
+    display: none;
+
+
+}
+/*
+.contact-form-bottom {
+
+  background-color: #A8A9AD;
+  height: 100px;
+
+}*/
+
+
+.form-header {
+
+   font-family: 'Raleway', sans-serif;
+   font-size: 40px;
+   color: white;
+   letter-spacing: 2px;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 40px;
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.form-header2 {
+
+   font-family: 'Raleway', sans-serif;
+   font-size: 40px;
+   color: white;
+   letter-spacing: 2px;
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+
+.inner-form-element {
+
+  margin: 15px;
+  border-radius: 0 !important;
+
+
+}
+
+.square {
+
+  border-radius: 0 !important;
+
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+textarea {
+   resize: none;
+
+}
+
+/* Change Chrome autocomplete yellow color*/
+
+
+.footer {
+
+   margin-top: 75px;
+
+}
+.footer-column {
+   /*border: 2px solid red;*/
+   margin-bottom: 25px;
+
+}
+
+.blockquote-column {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.inner-column {
+  /*border: 2px solid yellow;*/
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.yelp-wrapper {
+   width: 150px;
+   margin-top: 20px;
+
+}
+
+.yelp {
+
+   margin-top:10px;
+
+}
+
+
+a, a:hover {
+
+   color: black;
+
+}
+/* about us page */
+.aboutus-col-one {
+
+
+  height: 400px;
+
+
+}
+
+.aboutus-col-two {
+
+  /*border: 2px solid red;*/
+
+
+}
+
+.about-us-top-img {
+
+   /*height: 350px;*/
+   padding: 2px;
+   /*width: 100%;*/
+
+
+}
+
+.pressure-wash-img {
+
+  width: 50%;
+  height: 100%
+
+}
+
+.epoxy-page-img {
+
+  height: 350px;
+  width: 100%;
+
+
+
+}
+
+.card-shadow {
+
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+.commercial-img {
+
+   height: 500px;
+   width: 100%;
+   padding-top: 25px;
+
+
+
+}
+.col-offset-left {
+
+  padding-left: 25px;
+  padding-right: 80px;
+
+}
+.logos{
+
+  text-align: center;
+
+}
+.logos-right {
+
+  text-align: right;
+
+}
+.logos-left {
+
+  text-align: left;
+
+}
+
+.text-padding {
+
+    padding-left: 1cm;
+}
+
+.spacer0 {
+
+   height: 15px;
+
+}
+
+.spacer1 {
+
+   height: 50px;
+
+}
+
+.spacer2 {
+
+  height: 100px;
+
+}
+
+#smoothup {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s; transition-duration: 0.4s;
+}
+/* delay_anim_(1,2,3) delay the animations for the headers in the carousel to give a nice effect */
+.delay_anim_1 {
+
+  animation:  fadeInUp;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.0s;
+
+  opacity: 0;
+ }
+
+@-webkit-keyframes fadeInUp {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+
+.delay_anim_2 {
+
+  animation:  fadeInUp;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+
+  opacity: 0;
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+.delay_anim_3 {
+
+  animation:  fadeIn;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+
+
+  opacity: 0;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+/* delay_anim_(1,2,3) end */
+
+
+.delay_anim_new_1 {
+
+  animation:  fadeInUp;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+
+  opacity: 0;
+ }
+
+@-webkit-keyframes fadeInUp {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+
+
+
+.delay_anim_new_2 {
+
+  animation:  fadeInUp;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.7s;
+
+  opacity: 0;
+
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+.delay_anim_new_3 {
+
+  animation:  fadeIn;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+
+
+  opacity: 0;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+
+    opacity: 1;
+  }
+}
+
+
+
+/*footer */
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	/*margin: 20px 0 12px;*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	padding: 0;
+  text-align:center;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+  padding-top: 15px;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-company-num {
+  padding-right: 40px;
+}
+
+.footer-company-email {
+  padding-right:10px;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+.navbar {
+  min-height: 80px;
+  margin-bottom: 0px;
+}
+.navbar-default {
+  background-color: #ffffff;
+
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}

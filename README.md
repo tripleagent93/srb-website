@@ -5,4 +5,4 @@ www.srbpainting.com
 # Mobile first
 Built with smaller devices in mind. 
 # Responsive
-Responds to any device the user is viewing it from, whether its a smartphone, tablet or desktop computer.
+Scales to any device the user is viewing it from, whether its a smartphone, tablet or desktop computer.

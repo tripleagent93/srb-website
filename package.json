@@ -1,0 +1,23 @@
+{
+  "name": "srb-website",
+  "version": "1.0.0",
+  "description": "A website that I built in Summer 2015 for a local business. <br> www.srbpainting.com # Mobile first Built with smaller devices in mind.  # Responsive Scales to any device the user is viewing it from, whether its a smartphone, tablet or desktop computer.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripleagent93/srb-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripleagent93/srb-website/issues"
+  },
+  "homepage": "https://github.com/tripleagent93/srb-website#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
